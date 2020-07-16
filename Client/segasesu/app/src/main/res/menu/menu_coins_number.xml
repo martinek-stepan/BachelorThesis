@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_tutorial"
+        android:icon="@drawable/ic_lightbulb"
+        android:title="@string/tutorial"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_coins"
+        android:icon="@drawable/ic_coin"
+        android:title="@string/currentCoinsName"
+        android:orderInCategory="1"
+        app:showAsAction="withText|always" />
+</menu>

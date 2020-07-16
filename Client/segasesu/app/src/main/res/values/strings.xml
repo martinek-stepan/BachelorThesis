@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Seriozní hra pro podporu sebevědomí</string>
+
+    <string name="title_activity_flowers_gallery">FlowersGalleryActivity</string>
+    <string name="seed_random">Náhdné semeno</string>
+    <string name="seed_paprika">Semeno papriky</string>
+    <string name="seed_bean">Semeno fazole</string>
+    <string name="seed_potato">Semeno brambory</string>
+    <string name="seed_carrot">Semeno mrkve</string>
+
+
+    <string name="coin">koin</string>
+
+    <string name="pexeso_tutorial">Pexeso je minihra která má za úkol "programovat mozek" k soustředění se na pozitivní vlivy. Cílem hry je najít všechny smějící se obličeje. Když narazíte na mračouna tak se vám veškeré smějící skryjí ale jejich pozice se nemění.</string>
+    <string name="matrix_tutorial">Pexeso je minihra která má za úkol "programovat mozek" k soustředění se na pozitivní vlivy. Cílem hry je najít všechny smějící se obličeje v davu mračounů co nejrychleji.</string>
+    <string name="selfreflexion_tutorial">Vaším úkolem je psát o sobě pozitivní věci. Za každý příspěvek získáte 1 koin.</string>
+    <string name="selfsupport_tutorial">Vaším úkolem je zaznamenávat se sebe-podporující argumenty vůčí očekávané nebo reálně kritice od ostatních, které vás napadnou. Za každý příspěvek získáte 1 koin.</string>
+    <string name="achievements_tutorial">Vaším úkolem je zaznamenávat si svoje úspěchy. Za každý příspěvek získáte 1 koin.</string>
+    <string name="evaluation_tutorial">Zvolte možnost ano/ne/nevím pro každou položku na základě toho jestli souhlasí se zadáním dané kategorie. Za ohodnocení všech položek získáte 5 koinů.</string>
+
+    <string name="tasksSection">Úkoly</string>
+    <string name="selfreflexionName">Sebe-reflexe</string>
+    <string name="selfsupportName">Sebe-podporující argumenty</string>
+    <string name="achievementsName">Úspěchy</string>
+    <string name="evaluationSection">Hodnocení</string>
+    <string name="evaluateName">Hodnotit ostatní</string>
+    <string name="minigamesSection">Minihry</string>
+    <string name="pexesoName">Pexeso</string>
+    <string name="matrixName">Matrix</string>
+    <string name="loading">Loading…</string>
+    <string name="send">Odeslat</string>
+    <string name="addItem">Pridat položku</string>
+    <string name="newItemContent">Kontent nové položky</string>
+    <string name="acessCode">Přístupový kód</string>
+    <string name="login">Login</string>
+    <string name="currentCoinsName">Aktuální počet koinů</string>
+    <string name="currentCoins">Aktuálně máte %1$d koinů</string>
+    <string name="dontShowAgain">Znovu nezobrazovat</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="brain">Mozkovna</string>
+    <string name="shop">Obchod</string>
+
+    <string name="buyConfirm">Jsi si jistý, že chceš koupit %1$s?</string>
+    <string name="refillQuestionWater">Chcete doplnit vodu za %1$d koiny?</string>
+    <string name="refillQuestionPoop">Chcete doplnit hnojivo za %1$d koiny?</string>
+    <string name="refillQuestionMinerals">Chcete doplnit minerály za %1$d koiny?</string>
+
+    <string name="firstWinOfDay"> + 4 koiny první výhru dne.</string>
+    <string name="matrixTime">Čas: %1$d</string>
+    <string name="minigameProgress">Nalezeno: %1$d/%2$d</string>
+    <string name="matrixWin">"Gratuluji vyhrál jste v %1$.1f vteřinách. Získáváte 1 koin</string>
+    <string name="pexesoTurns">Počet tahů: %1$d</string>
+    <string name="pexesoWin">"Gratuluji vyhrál jste v %1$d tazích. Získáváte 1 koin</string>
+    <string name="invalidAccessCode">Chybný přístupový kód</string>
+    <string name="dataMismatch">Data aplikace a serveru se neschodují. Prosím přihlašte se znovu.</string>
+    <string name="notEnoughData">Server nemá dostatek dat aby mohl zajistit anonymitu. Vraťte se k hodnocení prosím později.</string>
+    <string name="notEnoughMoney">Na tuto nemáš dostatek koinu! Pro získání koinů navštiv Mozkovnu.</string>
+    <string name="buyed">Transakce proběhla v pořádku</string>
+    <string name="refilled">Doplněno</string>
+    <string name="doenstCount">Hey! Tuto už jsi jednou napsal, to se nepočítá.</string>
+    <string name="gainCoin">Získal jste %1$d koin.</string>
+    <string name="error">Někde se stala chyba.</string>
+    <string name="connectionError">Nastala chyba spojení. Prosím zkuste později.</string>
+    <string name="errorExplained">Došlo k chybě: %1$s</string>
+    <string name="serverError">Došlo k chybě serveru.</string>
+    <string name="missingEvaluations">Prosím ohodnoťte všechny polžky.</string>
+</resources>

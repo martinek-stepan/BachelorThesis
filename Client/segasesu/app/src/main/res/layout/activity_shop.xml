@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        >
+
+        <LinearLayout
+            android:layout_row="1"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/coinsTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+
+                android:maxLines="1"
+                android:textSize="30sp"
+                />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_coin"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:contentDescription="@string/currentCoinsName"/>
+
+        </LinearLayout>
+
+        <include
+            layout="@layout/shop_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:id="@+id/shop_item_random_seed"
+            />
+
+        <include
+            layout="@layout/shop_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:id="@+id/shop_item_seed_paprika"
+            />
+
+        <include
+            layout="@layout/shop_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:id="@+id/shop_item_seed_bean"
+            />
+
+        <include
+            layout="@layout/shop_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:id="@+id/shop_item_seed_potato"
+            />
+
+        <include
+            layout="@layout/shop_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:id="@+id/shop_item_seed_carrot"
+            />
+
+    </GridLayout>
+</ScrollView>

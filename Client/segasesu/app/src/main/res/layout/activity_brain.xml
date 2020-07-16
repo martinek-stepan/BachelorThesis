@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ukolyTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:text="@string/tasksSection"/>
+
+    <Button
+        android:id="@+id/selfreflexionButt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="SelfReflection"
+        android:text="@string/selfreflexionName"/>
+
+    <Button
+        android:id="@+id/selfsupportButt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="SelfSupport"
+        android:text="@string/selfsupportName"/>
+
+    <Button
+        android:id="@+id/achievementsButt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Achievements"
+        android:text="@string/achievementsName"/>
+
+    <TextView
+        android:id="@+id/evalutaionTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="@string/evaluationSection"/>
+
+    <Button
+        android:id="@+id/evaluationButt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="evaluation"
+        android:text="@string/evaluateName"/>
+
+    <TextView
+        android:id="@+id/minihryTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="@string/minigamesSection"/>
+
+    <Button
+        android:id="@+id/pexesoButt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Pexeso"
+        android:text="@string/pexesoName"/>
+
+    <Button
+        android:id="@+id/matrixButt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Matrix"
+        android:text="@string/matrixName"/>
+
+</LinearLayout>

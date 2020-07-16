@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"
+    android:gravity="center"
+    android:layout_gravity="fill_horizontal"
+    android:clickable="true"
+    android:background="@android:drawable/btn_default"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_marginTop="5dp"
+        android:id="@+id/shop_item_image"
+        />
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+
+            android:maxLines="1"
+            android:textSize="15sp"
+            android:id="@+id/priceTV"
+            />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_coin"
+            android:contentDescription="@string/currentCoinsName"/>
+
+    </LinearLayout>
+</LinearLayout>
